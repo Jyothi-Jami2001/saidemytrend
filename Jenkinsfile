@@ -20,7 +20,7 @@ pipeline {
             steps {
                  echo "-------unit test  started-------"
 
-                 sh 'mvn surefire-report:report''
+                 sh 'mvn surefire-report:report'
 
                  echo "-------unit test  completed-------"
             }
