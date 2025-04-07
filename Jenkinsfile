@@ -1,3 +1,4 @@
+def registry: https://trialrxbmgx.jfrog.io/
 pipeline {
     agent any
     environment {
